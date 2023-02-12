@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="login.LoginTest">
+        <methods>
+          <include name="LoginInValidEmail_Passwordwith5Character"/>
+          <include name="LoginValueisNotEmail_WithPassword"/>
+          <include name="teardown"/>
+          <include name="intiate"/>
+        </methods>
+      </class> <!-- login.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="9" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-12T15:35:15Z" name="Suite" finished-at="2023-02-12T15:40:32Z" duration-ms="316482">
+    <groups>
+    </groups>
+    <test started-at="2023-02-12T15:35:15Z" name="Test" finished-at="2023-02-12T15:40:32Z" duration-ms="316482">
+      <class name="login.LoginTest">
+        <test-method is-config="true" signature="intiate()[pri:0, instance:login.LoginTest@687e99d8]" started-at="2023-02-12T10:35:15Z" name="intiate" finished-at="2023-02-12T10:35:29Z" duration-ms="13128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiate -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:login.LoginTest@687e99d8]" started-at="2023-02-12T10:35:29Z" name="loginPageTitleTest" finished-at="2023-02-12T10:35:29Z" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:login.LoginTest@687e99d8]" started-at="2023-02-12T10:35:29Z" name="teardown" finished-at="2023-02-12T10:35:29Z" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="intiate()[pri:0, instance:login.LoginTest@687e99d8]" started-at="2023-02-12T10:35:29Z" name="intiate" finished-at="2023-02-12T10:35:40Z" duration-ms="10959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiate -->
+        <test-method signature="loginPageUrlTest()[pri:2, instance:login.LoginTest@687e99d8]" started-at="2023-02-12T10:35:40Z" name="loginPageUrlTest" finished-at="2023-02-12T10:35:40Z" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageUrlTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:login.LoginTest@687e99d8]" started-at="2023-02-12T10:35:40Z" name="teardown" finished-at="2023-02-12T10:35:40Z" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="intiate()[pri:0, instance:login.LoginTest@687e99d8]" started-at="2023-02-12T10:35:40Z" name="intiate" finished-at="2023-02-12T10:35:49Z" duration-ms="8623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiate -->
+        <test-method signature="LoginValidEmail_ValidPasswod()[pri:3, instance:login.LoginTest@687e99d8]" started-at="2023-02-12T10:35:49Z" name="LoginValidEmail_ValidPasswod" finished-at="2023-02-12T10:36:09Z" duration-ms="20767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginValidEmail_ValidPasswod -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:login.LoginTest@687e99d8]" started-at="2023-02-12T10:36:09Z" name="teardown" finished-at="2023-02-12T10:36:10Z" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="intiate()[pri:0, instance:login.LoginTest@687e99d8]" started-at="2023-02-12T10:36:10Z" name="intiate" finished-at="2023-02-12T10:36:21Z" duration-ms="11437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiate -->
+        <test-method signature="LoginwithEmptyEmail_EmptyPassword()[pri:4, instance:login.LoginTest@687e99d8]" started-at="2023-02-12T10:36:21Z" name="LoginwithEmptyEmail_EmptyPassword" finished-at="2023-02-12T10:36:38Z" duration-ms="16979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginwithEmptyEmail_EmptyPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:login.LoginTest@687e99d8]" started-at="2023-02-12T10:36:38Z" name="teardown" finished-at="2023-02-12T10:36:38Z" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="intiate()[pri:0, instance:login.LoginTest@687e99d8]" started-at="2023-02-12T10:36:38Z" name="intiate" finished-at="2023-02-12T10:36:48Z" duration-ms="9972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiate -->
+        <test-method signature="LoginInValidEmail_Passwordwith5Character()[pri:5, instance:login.LoginTest@687e99d8]" started-at="2023-02-12T10:36:48Z" name="LoginInValidEmail_Passwordwith5Character" finished-at="2023-02-12T10:37:29Z" duration-ms="40679" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='Input_caption__53xdW']"}
+  (Session info: chrome=110.0.5481.77)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Bhavins-MacBook-Air.local', ip: 'fe80:0:0:0:1048:7ade:a8:b5d8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.77, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: /var/folders/hf/x4rz8zl1037...}, goog:chromeOptions: {debuggerAddress: localhost:51405}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e3cd09385ce80820a8fb8c7000f36d95
+*** Element info: {Using=xpath, value=//div[@class='Input_caption__53xdW']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='Input_caption__53xdW']"}
+  (Session info: chrome=110.0.5481.77)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Bhavins-MacBook-Air.local', ip: 'fe80:0:0:0:1048:7ade:a8:b5d8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.77, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: /var/folders/hf/x4rz8zl1037...}, goog:chromeOptions: {debuggerAddress: localhost:51405}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e3cd09385ce80820a8fb8c7000f36d95
+*** Element info: {Using=xpath, value=//div[@class='Input_caption__53xdW']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at login.LoginTest.LoginInValidEmail_Passwordwith5Character(LoginTest.java:102)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginInValidEmail_Passwordwith5Character -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:login.LoginTest@687e99d8]" started-at="2023-02-12T10:37:29Z" name="teardown" finished-at="2023-02-12T10:37:29Z" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="intiate()[pri:0, instance:login.LoginTest@687e99d8]" started-at="2023-02-12T10:37:29Z" name="intiate" finished-at="2023-02-12T10:37:39Z" duration-ms="9791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiate -->
+        <test-method signature="LoginInValidEmail_Passwordwith8Character()[pri:6, instance:login.LoginTest@687e99d8]" started-at="2023-02-12T10:37:39Z" name="LoginInValidEmail_Passwordwith8Character" finished-at="2023-02-12T10:37:59Z" duration-ms="20642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginInValidEmail_Passwordwith8Character -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:login.LoginTest@687e99d8]" started-at="2023-02-12T10:37:59Z" name="teardown" finished-at="2023-02-12T10:37:59Z" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="intiate()[pri:0, instance:login.LoginTest@687e99d8]" started-at="2023-02-12T10:37:59Z" name="intiate" finished-at="2023-02-12T10:38:09Z" duration-ms="9924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiate -->
+        <test-method signature="ClickonForgetUrPassword()[pri:7, instance:login.LoginTest@687e99d8]" started-at="2023-02-12T10:38:09Z" name="ClickonForgetUrPassword" finished-at="2023-02-12T10:38:26Z" duration-ms="16731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickonForgetUrPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:login.LoginTest@687e99d8]" started-at="2023-02-12T10:38:26Z" name="teardown" finished-at="2023-02-12T10:38:26Z" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="intiate()[pri:0, instance:login.LoginTest@687e99d8]" started-at="2023-02-12T10:38:26Z" name="intiate" finished-at="2023-02-12T10:38:32Z" duration-ms="6160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiate -->
+        <test-method signature="ClickonCreateAccount()[pri:8, instance:login.LoginTest@687e99d8]" started-at="2023-02-12T10:38:32Z" name="ClickonCreateAccount" finished-at="2023-02-12T10:38:50Z" duration-ms="17377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickonCreateAccount -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:login.LoginTest@687e99d8]" started-at="2023-02-12T10:38:50Z" name="teardown" finished-at="2023-02-12T10:38:50Z" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="intiate()[pri:0, instance:login.LoginTest@687e99d8]" started-at="2023-02-12T10:38:50Z" name="intiate" finished-at="2023-02-12T10:38:59Z" duration-ms="8913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiate -->
+        <test-method signature="ClickonContactUs()[pri:9, instance:login.LoginTest@687e99d8]" started-at="2023-02-12T10:38:59Z" name="ClickonContactUs" finished-at="2023-02-12T10:39:15Z" duration-ms="15837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickonContactUs -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:login.LoginTest@687e99d8]" started-at="2023-02-12T10:39:15Z" name="teardown" finished-at="2023-02-12T10:39:15Z" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="intiate()[pri:0, instance:login.LoginTest@687e99d8]" started-at="2023-02-12T10:39:15Z" name="intiate" finished-at="2023-02-12T10:39:23Z" duration-ms="8786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiate -->
+        <test-method signature="LoginEnterKeys()[pri:10, instance:login.LoginTest@687e99d8]" started-at="2023-02-12T10:39:23Z" name="LoginEnterKeys" finished-at="2023-02-12T10:39:43Z" duration-ms="20020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginEnterKeys -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:login.LoginTest@687e99d8]" started-at="2023-02-12T10:39:43Z" name="teardown" finished-at="2023-02-12T10:39:44Z" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="intiate()[pri:0, instance:login.LoginTest@687e99d8]" started-at="2023-02-12T10:39:44Z" name="intiate" finished-at="2023-02-12T10:39:51Z" duration-ms="7732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiate -->
+        <test-method signature="LoginValueisNotEmail_WithPassword()[pri:11, instance:login.LoginTest@687e99d8]" started-at="2023-02-12T10:39:51Z" name="LoginValueisNotEmail_WithPassword" finished-at="2023-02-12T10:40:32Z" duration-ms="40506" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='Input_caption__53xdW']"}
+  (Session info: chrome=110.0.5481.77)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Bhavins-MacBook-Air.local', ip: 'fe80:0:0:0:1048:7ade:a8:b5d8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.77, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: /var/folders/hf/x4rz8zl1037...}, goog:chromeOptions: {debuggerAddress: localhost:51847}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 93bca2818d69b2fe2bc70552e1722045
+*** Element info: {Using=xpath, value=//div[@class='Input_caption__53xdW']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='Input_caption__53xdW']"}
+  (Session info: chrome=110.0.5481.77)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Bhavins-MacBook-Air.local', ip: 'fe80:0:0:0:1048:7ade:a8:b5d8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.77, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: /var/folders/hf/x4rz8zl1037...}, goog:chromeOptions: {debuggerAddress: localhost:51847}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 93bca2818d69b2fe2bc70552e1722045
+*** Element info: {Using=xpath, value=//div[@class='Input_caption__53xdW']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at login.LoginTest.LoginValueisNotEmail_WithPassword(LoginTest.java:144)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginValueisNotEmail_WithPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:login.LoginTest@687e99d8]" started-at="2023-02-12T10:40:32Z" name="teardown" finished-at="2023-02-12T10:40:32Z" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- login.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
